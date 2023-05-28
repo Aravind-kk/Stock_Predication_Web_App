@@ -77,10 +77,3 @@ st.plotly_chart(fig1)
 st.markdown("<p style='text-align: center;'>@ My Website | Designed By Aravind</p>",
             unsafe_allow_html=True)
 
-# Save requirements.txt file
-with open('requirements.txt', 'w') as f:
-    f.write('streamlit\n')
-    f.write('yfinance\n')
-    f.write('pandas\n')
-    f.write('plotly\n')
-    f.write('statsmodels\n')
